@@ -7,8 +7,8 @@ def get_receipt(file):
     from azure.core.credentials import AzureKeyCredential
     from azure.ai.formrecognizer import DocumentAnalysisClient
 
-    endpoint = "https://datacollector.cognitiveservices.azure.com/"
-    key = "725146f09b434fa2b8ec78290a50b516"
+    endpoint = "https://############.cognitiveservices.azure.com/"
+    key = "#################"
 
     document_analysis_client = DocumentAnalysisClient(endpoint=endpoint, credential=AzureKeyCredential(key))
 
